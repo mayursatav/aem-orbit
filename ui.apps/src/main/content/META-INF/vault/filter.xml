@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/orbit/clientlibs"/>
+    <filter root="/apps/orbit/components"/>
+    <filter root="/apps/orbit/i18n"/>
+</workspaceFilter>

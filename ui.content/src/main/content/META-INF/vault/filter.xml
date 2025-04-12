@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/orbit" mode="merge"/>
+    <filter root="/content/orbit" mode="merge"/>
+    <filter root="/content/dam/orbit" mode="merge">
+        <exclude pattern="/content/dam/orbit(/.*)?"/>
+        <include pattern="/content/dam/orbit/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/orbit/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/orbit" mode="merge"/>
+</workspaceFilter>
